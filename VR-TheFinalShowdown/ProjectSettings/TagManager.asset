@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Climbable
+  - ClimbUp
+  - Interactable2
+  - Interactable
+  - GrappleSurface
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - EffectTrigger
+  - 
+  - Ground
+  - Hands
+  - StorableItems
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - IgnorePlayerBody
+  - MiniMap
+  - PlayerBody
+  - ScannerVisible
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

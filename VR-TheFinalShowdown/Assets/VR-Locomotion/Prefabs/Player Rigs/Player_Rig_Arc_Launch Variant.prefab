@@ -1,0 +1,609 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &224649603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224649604}
+  - component: {fileID: 224649605}
+  m_Layer: 0
+  m_Name: Arc_Ray
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &224649604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224649603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8652165920333650534}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!120 &224649605
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224649603}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 5
+  m_Positions: []
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 0.01
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 0}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 64571
+      atime3: 65535
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 4
+    numCapVertices: 4
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+--- !u!1001 &2597970745144103361
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3794054899357919819, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4175749813426898957, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6416708835880656142, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151578019896356, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151578019896358, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151578019896359, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151578019896361, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6638151579580074920, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: m_Name
+      value: Player_Rig_Arc_Launch Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796039347059990647, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: ActivationAction.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <ViveController>{LeftHand}/trackpadClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 6796039347059990647, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+        type: 3}
+      propertyPath: DeactivationAction.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <ViveController>{LeftHand}/trackpadClicked
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 74e8a10effb3e7d4f8d1ac844cf497c3, type: 3}
+--- !u!4 &8652165920333650534 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6638151579580074919, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2597970745144103361}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8652165920887197165 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6638151578019896364, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2597970745144103361}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8652165920887197159 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6638151578019896358, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2597970745144103361}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652165920887197165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ff0602eab24151458551dd2a911a6eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &8652165920887197158 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 6638151578019896359, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2597970745144103361}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8652165921322894681 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6638151578725045400, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2597970745144103361}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &8652165919752324004 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6638151579037848165, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2597970745144103361}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8652165921136484610 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6638151578240905411, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2597970745144103361}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &8652165921164629244 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6638151578302399805, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2597970745144103361}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8652165920389810203 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6638151579674909146, guid: 74e8a10effb3e7d4f8d1ac844cf497c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2597970745144103361}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50397e1360c270446ba825908d4a013c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1356913237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652165920887197165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03133fda0a6d8e439649d3037f2a552, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BodyController: {fileID: 8652165920389810203}
+  ClimbComponent: {fileID: 8652165920887197159}
+  PlayerBody: {fileID: 8652165920887197158}
+  LeftTeleportActivate:
+    m_Name: Left Teleport Activate
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: f7376227-6502-494c-a093-52ad71518579
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: c304d816-a1d5-40e3-8be0-445eeb425032
+      m_Path: <ViveController>{LeftHand}/triggerPressed
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 78cb21f8-2cf5-430a-a904-beac9b06e890
+      m_Path: <OculusTouchController>{LeftHand}/primaryButton
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: b8da24ba-0c4b-4efa-90db-da7271078355
+      m_Path: <ValveIndexController>{LeftHand}/primaryButton
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 7ed7b332-a035-4c70-a048-f738d5a991cf
+      m_Path: <WMRSpatialController>{LeftHand}/touchpadClicked
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    m_Flags: 0
+  LeftTeleportDeactivate:
+    m_Name: Left Teleport Activate
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: f7376227-6502-494c-a093-52ad71518579
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: c304d816-a1d5-40e3-8be0-445eeb425032
+      m_Path: <ViveController>{LeftHand}/triggerPressed
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 78cb21f8-2cf5-430a-a904-beac9b06e890
+      m_Path: <OculusTouchController>{LeftHand}/primaryButton
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 463f74a1-325b-401c-ba8b-1c7919e04594
+      m_Path: <ValveIndexController>{LeftHand}/primaryButton
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: c6267f79-39c4-45da-b449-29e163c395ac
+      m_Path: <WMRSpatialController>{LeftHand}/touchpadClicked
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    m_Flags: 0
+  RightTeleportActivate:
+    m_Name: Left Teleport Activate
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: f7376227-6502-494c-a093-52ad71518579
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 97b0c768-cffe-4006-b5f5-075f4fa005d0
+      m_Path: <ViveController>{RightHand}/triggerPressed
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 78cb21f8-2cf5-430a-a904-beac9b06e890
+      m_Path: <OculusTouchController>{RightHand}/primaryButton
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 23f6db38-f640-4437-acb5-2e0feceda247
+      m_Path: <ValveIndexController>{RightHand}/primaryButton
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 4fb1a947-ebb9-44ed-bdbe-7174a795a40d
+      m_Path: <WMRSpatialController>{RightHand}/touchpadClicked
+      m_Interactions: Press
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    m_Flags: 0
+  RightTeleportDeactivate:
+    m_Name: Left Teleport Activate
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: f7376227-6502-494c-a093-52ad71518579
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: eb8b5da5-b806-4055-9b75-f091a02a1a0c
+      m_Path: <ViveController>{RightHand}/triggerPressed
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: e7f2b159-4c81-49a3-9d19-141a88eb0836
+      m_Path: <WMRSpatialController>{RightHand}/touchpadClicked
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 78cb21f8-2cf5-430a-a904-beac9b06e890
+      m_Path: <OculusTouchController>{RightHand}/primaryButton
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    - m_Name: 
+      m_Id: c1187f32-01fd-4856-9a46-847e9d2cf811
+      m_Path: <ValveIndexController>{RightHand}/primaryButton
+      m_Interactions: Press(behavior=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Teleport Activate
+      m_Flags: 0
+    m_Flags: 0
+  LeftHandInteractor: {fileID: 8652165921136484610}
+  RightHandInteractor: {fileID: 8652165921322894681}
+  ActivationEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  DeactivationEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  AimStarted: 0
+  LeftAimer: {fileID: 8652165921164629244}
+  RightAimer: {fileID: 8652165919752324004}
+  CurrentAimer: {fileID: 0}
+  InitialStartHeight: 0.1
+  MinJumpPower: 3
+  MaxJumpPower: 8
+  CurrentChargePower: 0
+  ChargeTime: 3
+  HapticForceMultiplier: 1
+  JumpEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  MaxJumpCount: 2
+  DownwardPointThreshold: -0.25
+  Line: {fileID: 224649605}
+  ValidColor:
+    serializedVersion: 2
+    key0: {r: 0.6273585, g: 1, b: 0.7122449, a: 0.5882353}
+    key1: {r: 0.24644002, g: 0.735849, b: 0.31987265, a: 0}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 32768
+    atime2: 64571
+    atime3: 65535
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  InvalidColor:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.627451, b: 0.720657, a: 0.5882353}
+    key1: {r: 1, g: 0.627451, b: 0.72156864, a: 0}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 32768
+    atime2: 64571
+    atime3: 65535
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+--- !u!114 &1356913241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8652165920887197165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 045175d6c608b0d4398ff44ef218a33a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LineRenderer: {fileID: 224649605}
+  numPoints: 50
+  timeBetweenPoints: 0.1
+  CollidableLayers:
+    serializedVersion: 2
+    m_Bits: 256
